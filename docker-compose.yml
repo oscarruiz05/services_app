@@ -1,0 +1,51 @@
+version: '3.5'
+services:
+  servicios_grupologis:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      image: 'servicios_grupologis:latest'
+      container_name: servicios_grupologis
+      ports:
+          - '800:80'
+      restart: always
+      volumes:
+          - '.:/var/www/html/'
+      networks:
+          - red_local
+      links:
+         - mysql
+  mysql:
+      image: mariadb:10.3
+      restart: always
+      volumes:
+          - db:/var/lib/mysql
+      environment:
+          - MYSQL_DATABASE=grupolog_app
+          - MYSQL_USER=grupolog_app
+          - MYSQL_PASSWORD=poiu0987
+          - MYSQL_ROOT_PASSWORD=poiu0987
+      networks:
+          - red_local
+  phpmyadmin:
+      image: phpmyadmin/phpmyadmin
+      ports:
+          - '801:80'
+      links:
+          - mysql:mysql
+      environment:
+          - PMA_HOST=mysql
+          - PMA_ARBITRARY=1
+          - MYSQL_DATABASE=grupolog_app
+          - MYSQL_USER=grupolog_app
+          - MYSQL_PASSWORD=poiu0987
+          - MYSQL_ROOT_PASSWORD=poiu0987
+          - UPLOAD_LIMIT=108462735
+      networks:
+          - red_local
+          
+networks:
+    red_local:
+        name: red_local
+volumes:
+  db:

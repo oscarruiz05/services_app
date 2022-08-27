@@ -1,0 +1,84 @@
+[17-Nov-2021 12:24:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; class_conexion has a deprecated constructor in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 2
+[17-Nov-2021 12:24:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php:21
+Stack trace:
+#0 /home/appgrupo/public_html/prod/app/managers/pruebas/GetDatosNomina.php(7): class_conexion->class_conexion()
+#1 /home/appgrupo/public_html/prod/app/managers/pruebas/GetDatosNomina.php(137): getToken()
+#2 {main}
+  thrown in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 21
+[17-Nov-2021 13:41:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; class_conexion has a deprecated constructor in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 2
+[17-Nov-2021 13:41:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php:21
+Stack trace:
+#0 /home/appgrupo/public_html/prod/app/managers/pruebas/GetNominaDatosGenerales.php(7): class_conexion->class_conexion()
+#1 /home/appgrupo/public_html/prod/app/managers/pruebas/GetNominaDatosGenerales.php(137): getToken()
+#2 {main}
+  thrown in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 21
+[17-Nov-2021 14:41:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; class_conexion has a deprecated constructor in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 2
+[17-Nov-2021 14:41:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php:21
+Stack trace:
+#0 /home/appgrupo/public_html/prod/app/managers/pruebas/GetNominaDatosGenerales.php(7): class_conexion->class_conexion()
+#1 /home/appgrupo/public_html/prod/app/managers/pruebas/GetNominaDatosGenerales.php(137): getToken()
+#2 {main}
+  thrown in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 21
+[17-Nov-2021 14:43:17 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; class_conexion has a deprecated constructor in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 2
+[17-Nov-2021 14:43:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php:21
+Stack trace:
+#0 /home/appgrupo/public_html/prod/app/managers/pruebas/GetNominaDatosGenerales.php(7): class_conexion->class_conexion()
+#1 /home/appgrupo/public_html/prod/app/managers/pruebas/GetNominaDatosGenerales.php(137): getToken()
+#2 {main}
+  thrown in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 21
+[17-Nov-2021 16:05:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; class_conexion has a deprecated constructor in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 2
+[17-Nov-2021 16:05:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php:21
+Stack trace:
+#0 /home/appgrupo/public_html/prod/app/managers/pruebas/GetDatosNomina.php(7): class_conexion->class_conexion()
+#1 /home/appgrupo/public_html/prod/app/managers/pruebas/GetDatosNomina.php(137): getToken()
+#2 {main}
+  thrown in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 21
+[17-Nov-2021 16:17:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; class_conexion has a deprecated constructor in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 2
+[17-Nov-2021 16:17:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php:21
+Stack trace:
+#0 /home/appgrupo/public_html/prod/app/managers/pruebas/GetDatosNomina.php(7): class_conexion->class_conexion()
+#1 /home/appgrupo/public_html/prod/app/managers/pruebas/GetDatosNomina.php(137): getToken()
+#2 {main}
+  thrown in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 21
+[17-Nov-2021 16:19:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; class_conexion has a deprecated constructor in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 2
+[17-Nov-2021 16:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php:21
+Stack trace:
+#0 /home/appgrupo/public_html/prod/app/managers/pruebas/GetDatosNomina.php(7): class_conexion->class_conexion()
+#1 /home/appgrupo/public_html/prod/app/managers/pruebas/GetDatosNomina.php(137): getToken()
+#2 {main}
+  thrown in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 21
+[17-Nov-2021 18:21:52 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; class_conexion has a deprecated constructor in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 2
+[17-Nov-2021 18:21:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php:21
+Stack trace:
+#0 /home/appgrupo/public_html/prod/app/managers/pruebas/GetDatosNomina.php(7): class_conexion->class_conexion()
+#1 /home/appgrupo/public_html/prod/app/managers/pruebas/GetDatosNomina.php(137): getToken()
+#2 {main}
+  thrown in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 21
+[17-Nov-2021 19:53:11 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; class_conexion has a deprecated constructor in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 2
+[17-Nov-2021 19:53:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php:21
+Stack trace:
+#0 /home/appgrupo/public_html/prod/app/managers/pruebas/GetDatosNomina.php(7): class_conexion->class_conexion()
+#1 /home/appgrupo/public_html/prod/app/managers/pruebas/GetDatosNomina.php(137): getToken()
+#2 {main}
+  thrown in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 21
+[17-Nov-2021 19:55:07 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; class_conexion has a deprecated constructor in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 2
+[17-Nov-2021 19:55:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php:21
+Stack trace:
+#0 /home/appgrupo/public_html/prod/app/managers/pruebas/GetDatosNomina.php(7): class_conexion->class_conexion()
+#1 /home/appgrupo/public_html/prod/app/managers/pruebas/GetDatosNomina.php(137): getToken()
+#2 {main}
+  thrown in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 21
+[17-Nov-2021 20:16:11 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; class_conexion has a deprecated constructor in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 2
+[17-Nov-2021 20:16:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php:21
+Stack trace:
+#0 /home/appgrupo/public_html/prod/app/managers/pruebas/GetDatosNomina.php(7): class_conexion->class_conexion()
+#1 /home/appgrupo/public_html/prod/app/managers/pruebas/GetDatosNomina.php(137): getToken()
+#2 {main}
+  thrown in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 21
+[17-Nov-2021 21:40:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; class_conexion has a deprecated constructor in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 2
+[17-Nov-2021 21:40:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php:21
+Stack trace:
+#0 /home/appgrupo/public_html/prod/app/managers/pruebas/GetDatosNomina.php(7): class_conexion->class_conexion()
+#1 /home/appgrupo/public_html/prod/app/managers/pruebas/GetDatosNomina.php(137): getToken()
+#2 {main}
+  thrown in /home/appgrupo/public_html/prod/app/managers/dbmanagers/class_conexion.php on line 21
